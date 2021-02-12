@@ -1,0 +1,50 @@
+header, main, footer {
+  padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
+
+li.tab.side {
+    display: block;
+    text-align: inherit;
+}
+
+.text-teal * {
+  color: #263238 !important;
+}
+
+.text-teal * {
+  color: #263238 !important;
+}
+.text-teal .active {
+  background-color: #263238 !important;
+  color: #FFF !important;
+}
+
+
+ul#slide-out.tabs {
+  display: block; 
+}
+ul#slide-out.tabs .indicator{
+  display:none;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current {
+  color: white !important;
+  background: #263238 !important;
+  border: none;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+  color: white !important;
+  background: #263238 !important;
+  border: none;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover{
+  color: white !important;
+  background: #263238 !important;
+  border: none;
+}
